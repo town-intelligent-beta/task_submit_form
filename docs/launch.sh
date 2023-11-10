@@ -1,1 +1,1 @@
-google-chrome --incognito https://task.townway.com.tw/activity_participation.html?uuid=30056031&gps=true &
+google-chrome --incognito https://alpha-task.townway.com.tw/activity_participation.html?uuid=61370838&gps=true &
