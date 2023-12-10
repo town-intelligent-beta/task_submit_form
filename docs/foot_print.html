@@ -223,7 +223,25 @@
                   </table>
                 </div>
                 <p class="mt-2 mb-0" style="font-size: 12px">個人 : 個人參與永續合作貢獻的權重。</p>
-                <p class="mb-0" style="font-size: 12px">專案 : 全體參與者於永續合作中累積的權重。</p>
+                <p class="mb-0" style="font-size: 12px">專案 : 全體參與者於永續合作中累積的權重。
+								  專案 : 全體參與者於永續合作中累積的權重。
+                  <button type="button" id="verify_for" class="btn btn-primary click">驗證任務</button>
+                
+                <script>
+                  document.getElementById("verify_for").onclick = function() {
+
+                    for (let i = 1; i <= 27; i++) {
+                      let element = document.getElementById(`person_s${i}`);
+                      if (element) {
+                          element.innerText = '0';
+                      }
+                    }
+                    setLocalStorage("target", "");
+                    alert("驗證成功!");
+                  };
+                </script>
+
+								</p>
               </div>
               <!-- <div class="col-6"> -->
 							<div class="col-md-7 col-12">

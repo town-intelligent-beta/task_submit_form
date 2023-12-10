@@ -1,1 +1,1 @@
-git add . ; git commit --amend -m "refactor: bar chart" ; git push -f
+git add . ; git commit -m "feat: verify for" ; git push
